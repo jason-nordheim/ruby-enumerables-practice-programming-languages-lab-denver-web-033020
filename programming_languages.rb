@@ -8,6 +8,7 @@ def reformat_languages(languages)
       }
     }
   }
+  output 
 end
 
 lang_by_style =     {
