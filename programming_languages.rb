@@ -3,7 +3,6 @@ def reformat_languages(languages)
   return languages
 end
 
-
 lang_by_style =     {
       :oo => {
         :ruby => {
@@ -32,6 +31,5 @@ lang_by_style =     {
         :javascript => {
           :type => "interpreted"
         }
-
       }
     }
