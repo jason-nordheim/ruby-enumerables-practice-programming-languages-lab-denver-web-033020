@@ -1,8 +1,11 @@
 def reformat_languages(languages)
   # your code here
-  languages.map { |type,langauge_hash|
-    v.map { | |
-      
+  
+  languages.each { |type,lang_hash|
+    v.each { | lang, type_hash |
+      type_hash.each { | type, value|
+        
+      }
     }
   }
 end
