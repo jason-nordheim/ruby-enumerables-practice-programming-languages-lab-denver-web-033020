@@ -2,9 +2,9 @@ def reformat_languages(languages)
   # your code here
   output = {} 
   languages.each { |type,lang_hash|
-    lang_hash.each { | lang, type_hash |
+    lang_hash.each { | lang, type_hash |    
       type_hash.each { | type, value|
-
+        output[lang] = {:type=>value,:style=>type}
       }
     }
   }
