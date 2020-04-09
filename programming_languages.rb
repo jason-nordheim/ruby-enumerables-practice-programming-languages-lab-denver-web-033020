@@ -1,7 +1,7 @@
 def reformat_languages(languages)
   # your code here
-  languages.map { |k,v|
-    puts v
+  languages.map { |type,langauge_hash|
+    v.map {}
   }
 end
 
