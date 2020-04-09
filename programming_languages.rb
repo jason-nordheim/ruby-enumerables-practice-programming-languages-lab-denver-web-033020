@@ -8,7 +8,7 @@ def reformat_languages(languages)
       }
     }
   }
-  output 
+  output
 end
 
 lang_by_style =     {
@@ -42,4 +42,4 @@ lang_by_style =     {
       }
     }
 
-reformat_languages(lang_by_style)
+p reformat_languages(lang_by_style)
