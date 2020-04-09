@@ -44,4 +44,4 @@ lang_by_style =     {
       }
     }
 
-p reformat_languages(lang_by_style)
+pp reformat_languages(lang_by_style)
