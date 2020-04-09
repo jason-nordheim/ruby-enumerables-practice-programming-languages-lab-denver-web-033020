@@ -1,7 +1,7 @@
 def reformat_languages(languages)
   # your code here
   languages.map { |k,v|
-    puts k 
+    puts k
   }
 end
 
@@ -35,3 +35,5 @@ lang_by_style =     {
         }
       }
     }
+
+reformat_languages(lang_by_style)
