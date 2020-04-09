@@ -6,7 +6,7 @@ def reformat_languages(languages)
   languages.each { |style,lang_hash|
     lang_hash.each { | lang, type_hash |
       type_hash.each { | type, value|
-        output[lang] = {:type=>value,:style=>style}
+        output[lang] = {:type=>value,:style=>[style]}
       }
     }
   }
