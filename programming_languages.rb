@@ -32,6 +32,6 @@ lang_by_style =     {
         :javascript => {
           :type => "interpreted"
         }
-     
+
       }
     }
