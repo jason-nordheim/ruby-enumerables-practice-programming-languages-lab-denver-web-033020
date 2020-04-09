@@ -1,10 +1,10 @@
 def reformat_languages(languages)
   # your code here
-  
+
   languages.each { |type,lang_hash|
     v.each { | lang, type_hash |
       type_hash.each { | type, value|
-        
+
       }
     }
   }
