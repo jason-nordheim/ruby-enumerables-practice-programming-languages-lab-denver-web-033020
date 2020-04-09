@@ -1,6 +1,8 @@
 def reformat_languages(languages)
   # your code here
-  return languages
+  languages.map { |k,v|
+    puts k 
+  }
 end
 
 lang_by_style =     {
